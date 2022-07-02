@@ -19,14 +19,14 @@ class MainActivity : AppCompatActivity() {
     }
     fun Addition(size:Int):List<Int>{
         var list=ArrayList<Int>()
-        var fn1=0
-        var fn2=1
+        var num1=0
+        var num2=1
         var number=0
         while (number <= size){
-            print(fn1)
-            var add= fn1+fn2
-            fn1=fn2
-            fn2=add
+            print(num1)
+            var add= num1+num2
+            num1=num2
+            num2=add
             number++
             list+=add
 

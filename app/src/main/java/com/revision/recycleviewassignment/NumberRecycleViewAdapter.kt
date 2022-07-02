@@ -32,4 +32,3 @@ class NumberRecycleViewAdapter(var numberList:List<Int>):RecyclerView.Adapter<Nu
 
 
 }
-
